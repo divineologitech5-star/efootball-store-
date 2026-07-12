@@ -1,8 +1,9 @@
 import { useState } from 'react'
 import { X, Minus, Plus, Trash2, CreditCard } from 'lucide-react'
-import { useCart } from '../contexts/CartContext'
-import { useToast } from '../contexts/ToastContext'
-import { usePaystack } from '../contexts/PaystackContext'
+import { useCart } from './CartContext'
+import { useToast } from './ToastContext'
+import { usePaystack } from './PaystackContext'
+
 
 export function CartDrawer() {
   const { cart, isOpen, toggleCart, updateQty, removeFromCart, totalItems, totalPrice, clearCart } = useCart()

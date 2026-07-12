@@ -1,7 +1,8 @@
 import { Plus } from 'lucide-react'
 import { Product } from '../types'
-import { useCart } from '../contexts/CartContext'
-import { useToast } from '../contexts/ToastContext'
+import { useCart } from './CartContext'
+import { useToast } from './ToastContext'
+
 
 interface ProductCardProps {
   product: Product

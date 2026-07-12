@@ -1,14 +1,16 @@
-import { ThemeProvider } from './contexts/ThemeContext'
-import { CartProvider } from './contexts/CartContext'
-import { ToastProvider } from './contexts/ToastContext'
-import { PaystackProvider } from './contexts/PaystackContext'
-import { Navbar } from './components/Navbar'
-import { Hero } from './components/Hero'
-import { ProductsSection } from './components/ProductsSection'
-import { FeaturesSection } from './components/FeaturesSection'
-import { CTASection } from './components/CTASection'
-import { Footer } from './components/Footer'
-import { CartDrawer } from './components/CartDrawer'
+import { ThemeProvider } from './ThemeContext'
+import { CartProvider } from './CartContext'
+import { ToastProvider } from './ToastContext'
+import { PaystackProvider } from './PaystackContext'
+import { Navbar } from './Navbar'
+import { Hero } from './Hero'
+import { ProductsSection } from './ProductsSection'
+import { FeaturesSection } from './FeaturesSection'
+import { CTASection } from './CTASection'
+import { Footer } from './Footer'
+import { CartDrawer } from './CartDrawer'
+
+
 
 function App() {
   return (

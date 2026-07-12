@@ -1,6 +1,7 @@
 import { ShoppingCart, Menu, X, Sun, Moon } from 'lucide-react'
-import { useCart } from '../contexts/CartContext'
-import { useTheme } from '../contexts/ThemeContext'
+import { useCart } from './CartContext'
+import { useTheme } from './ThemeContext'
+
 import { useState } from 'react'
 
 export function Navbar() {
