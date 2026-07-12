@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useCallback } from 'react'
-import { CartItem, Product } from '../types'
+import { CartItem, Product } from './types'
+
 
 interface CartContextType {
   cart: CartItem[]

@@ -1,5 +1,6 @@
 import { Zap, Shield, RefreshCw, MessageCircle, Trophy, Lock } from 'lucide-react'
-import { features } from '../data/products'
+import { features } from './products'
+
 
 const iconMap: Record<string, React.ReactNode> = {
   Zap: <Zap className="w-6 h-6" />,

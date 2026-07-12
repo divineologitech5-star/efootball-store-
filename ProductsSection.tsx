@@ -1,5 +1,6 @@
-import { products } from '../data/products'
+import { products } from './products'
 import { ProductCard } from './ProductCard'
+
 
 export function ProductsSection() {
   return (

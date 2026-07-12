@@ -1,5 +1,6 @@
 import { ArrowRight, Play } from 'lucide-react'
-import { stats } from '../data/products'
+import { stats } from './products'
+
 
 export function Hero() {
   const scrollToProducts = () => {
